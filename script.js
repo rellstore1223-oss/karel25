@@ -193,7 +193,7 @@ const lihatProduk = document.querySelector("#lihatProduk");
 
 lihatProduk.addEventListener("click", function () {
 
-    document.querySelector("#produk").scrollIntoView({
+    document.querySelector("#lihatProduk");.scrollIntoView({
         behavior: "smooth"
     });
 
