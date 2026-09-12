@@ -185,6 +185,19 @@ categoryButtons.forEach(button => {
 
 });
 
+// ========================================
+// TOMBOL LIHAT PRODUK
+// ========================================
+
+const lihatProduk = document.querySelector("#lihatProduk");
+
+lihatProduk.addEventListener("click", function () {
+
+    document.querySelector("#produk").scrollIntoView({
+        behavior: "smooth"
+    });
+
+});
 
 // ========================================
 // TAMPILKAN PRODUK SAAT WEBSITE DIBUKA
